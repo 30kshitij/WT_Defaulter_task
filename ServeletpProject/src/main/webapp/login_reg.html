@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Servlet</title>
+</head>
+<body>
+<form action="./Login" method="post">
+<h1>Registration Page</h1>
+        <p>Email id:
+        <!-- Create an element with mandatory name attribute,
+        so that data can be transfer to the servlet using getParameter() -->
+        <input type="text" name="email"/>
+        </p> 
+        <p>Firstname: 
+        <input type="text" name="first"/>
+        </p>
+        <p>Lastname: 
+        <input type="text" name="last"/>
+        </p>
+        <p>Password: 
+        <input type="password" name="pass"/>
+        </p>
+        <br/>
+        <input type="submit"/>
+</form>
+</br>
+<form action="./Login_check" method="post">
+<h1>Login Page</h1>
+        <p>Email id:
+        <!-- Create an element with mandatory name attribute,
+        so that data can be transfer to the servlet using getParameter() -->
+        <input type="text" name="email"/>
+        </p> 
+        <p>Password: 
+        <input type="password" name="pass"/>
+        </p>
+        <br/>
+        <input type="submit"/>
+</form>
+
+
+
+</body>
+</html>
